@@ -1,0 +1,4 @@
+HTML is not case sensitive
+JS is case sensitive
+Entity -  Used to display reserved characters in html.Eg. ", <,> etc. Starts with & and ends with ;. 
+<hr/> tag - Used to represent thematic break between paragraphs

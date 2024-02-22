@@ -2,3 +2,74 @@ HTML is not case sensitive
 JS is case sensitive
 Entity -  Used to display reserved characters in html.Eg. ", <,> etc. Starts with & and ends with ;. 
 <hr/> tag - Used to represent thematic break between paragraphs
+Level -2
+Block Elements - Takes the whole width available. Starts with new line
+Inline Elements - Takes up only necessary width. Don't start with new line
+heading, paragraph - Block tags
+image, anchor tag - Inline tag
+
+Div Element - Content Division Element
+It is block element.
+Container element to group html elements
+
+Span Element - Similar to div element, but inline. G
+
+Hr tag - <hr>
+Horizontal divider
+
+Sub and Sup tag
+sub - subscript - H2O - H<sub>2</sub>O
+sup - Superscript - a2 - a<sup>2</sup>
+
+Semantic Markup : Tags which relate to the Content. Eg. h-tag, p-tag, img tag
+header, footer tags are semantic - Even the div tag does the same thing, But header tag makes it semantic(intutive).
+Advantage - 1. Makes the code more readable. 2. Website becomes SEO (Search Engine Optimization) friendly
+Eg. header, footer, main, nav
+Non-semantic Markup : Donot relate to content. Eg. span, div
+<header></header>
+<main></main>
+<footer></footer>
+<nav></nav> -> Navigation - TO group links that lead us to different webpages
+<article></article>
+<section></section>
+<aside></aside> - To display all the links along the side of a website
+
+HTML Entities:
+A string that starts with & and ends with ;. Used to display reserved characters in HTML. Browser interprets them and renders correct character
+
+HTML Tables
+<table>
+<caption></caption>
+<tr> -> row
+<th></th> -> heading
+<th></th>
+</tr>
+<tr>
+<td></td> -> Data
+<td></td>
+</tr>
+</table>
+
+Sematics in table
+<thead>
+<tbody>
+<tfoot>
+
+Colspan - How many columns does the cell span
+rowspan - How many rows does the cell span.
+Both are by default 1
+
+FORMS in HTML
+
+<form action = "/action">
+<input type="text" placeholder="Enter Name">
+</form>
+On click of any button in a form , the form get submitted and the method in action of the form tag gets executed
+
+Button
+<button type="submit">Submit</button> -> Submits form 
+<button type="button">Button</button> -> No default action
+<button type="reset">Reset</button> -> The form elements are reset
+
+Name Attribute:
+On form submit the name attribute of an input field is passed in the url to backend

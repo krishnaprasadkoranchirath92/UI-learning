@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Example</title>
+</head>
+
+<body>
+    <form action="/action">
+        <div>
+            <label>Username:<input type="text" placeholder="enter username"></label>
+        </div>
+        <div>
+            <label for="pswd">Password:</label> <input type="password" placeholder="enter password" id="pswd">
+        </div>
+        <div>
+            <label>Age:</label>
+            <input type="number" placeholder="Enter Age" />
+        </div>
+        <div>
+            <button>Submit</button>
+            <button type="submit">Submit me</button>
+            <button type="button">Button</button>
+            <button type="reset">Reset</button>
+        </div>
+        <br>
+        <div>
+            <input type="button" value="Click Me!" />
+            <input type="submit" value="Submit Me!" />
+        </div>
+    </form>
+    <hr>
+    <form action="https://www.google.com/search">
+        <input type="text" placeholder="Search in Google" name="q"/>
+        <button>Search</button>
+    </form>
+    <form>
+        <input id="math" type="checkbox" name="subject" value="math"/>
+        <label for="math">Maths</label>
+        <input id="science" type="checkbox" name="subject" value="science"/>
+        <label for="science">Science</label>
+        <input id="english" type="checkbox" name="subject" value="english"/>
+        <label for="english">English</label>
+        <br>
+        <input type="radio" value="apple" name="fruit" id="apple"><label for="apple">Apple</label>
+        <input type="radio" value="orange" name="fruit" id="orange"><label for="orange">Orange</label>
+        <input type="radio" value="banana" name="fruit" id="banana"><label for="banana">Banana</label>
+        <button>Save</button>
+    </form>
+</body>
+
+</html>

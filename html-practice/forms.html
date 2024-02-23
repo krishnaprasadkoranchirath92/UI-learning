@@ -47,7 +47,37 @@
         <input type="radio" value="apple" name="fruit" id="apple"><label for="apple">Apple</label>
         <input type="radio" value="orange" name="fruit" id="orange"><label for="orange">Orange</label>
         <input type="radio" value="banana" name="fruit" id="banana"><label for="banana">Banana</label>
+        <br>
+        <select name="profession" id="prof">
+            <option>--select--</option>
+            <option value="dev" selected>Developer</option>
+            <option value="test">Tester</option>
+        </select>
+        <label for="vol"/>
+        <input type="range" min="0" max="100" id="vol" name="vol" step="20" value="40"/>
+        <br>    
+        <label for="feedback">Please provide feedback: </label>
+        <textarea id="feedback" name="feedback" rows="5" cols="25" placeholder="Write feedback"></textarea>
         <button>Save</button>
+    </form>
+    <hr>
+    <form>
+        <h1>Registeration Form</h1>
+        <input type="text" placeholder="First Name" name="fn"/>
+        <input type="text" placeholder="Last Name" name="ln"/>
+        <br>
+        <label>Please select gender</label>
+        <select name="gender">
+            <option value="">--select--</option>
+            <option value="m">Male</option>
+            <option value="f">Female</option>
+        </select>
+        <br>
+        <label>Do you agree to all terms of the service?</label>
+        <input type="checkbox" id="c"/>
+        <label for="c">Yes, I agree</label>
+        <br>
+        <button>Register</button>
     </form>
 </body>
 

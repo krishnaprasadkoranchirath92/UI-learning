@@ -1,0 +1,5 @@
+CSS format
+
+h1(selector){
+    color(property):red(value);
+}

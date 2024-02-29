@@ -3,3 +3,15 @@ CSS format
 h1(selector){
     color(property):red(value);
 }
+
+Ways to include styling
+1. Inline style - 
+inside the html tags define style. Not good for large scale applications where the same style gets repeated for different elements and then the same in line style needs to get repeated.
+2. Using style tag in same htmln file (inside head tag):
+<style>
+h1{color:red;}
+</style>
+Style gets applied to elements of a single page alone. Not suitable for large applications with multiple html pages.
+3. External Style sheet
+Write CSS to a separate file and link it to HTML pages
+<link rel="stylesheet" href="xyStyle.css">

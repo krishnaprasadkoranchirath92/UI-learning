@@ -19,8 +19,25 @@ Write CSS to a separate file and link it to HTML pages
 Color - For forground color
 backgound-color - For background color
 
-Collor System -
-RGB - Red Green Blue
+Color System -
+1. RGB - Red Green Blue
 h1 {
+
     color:rgb(0,0,255)
 }
+
+2. Hexadecimal  
+color = #FFFFFF
+Letters - 0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F
+font-weight : bold, normal or number between 100 to 900
+text-decoration : underline, overline, line-through
+
+line-height:normal/any number
+letter-spacing:normal/ 5px
+
+Font-size units
+Absolute - px (96px = 1 inch) not suitable for responsive website, pt, pc
+Relative - %, em, rem - Suitable for responsive websites
+
+font-family:arial, didot
+Prioritized list of one or more font family names

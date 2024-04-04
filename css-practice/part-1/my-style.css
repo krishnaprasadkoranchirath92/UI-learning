@@ -1,0 +1,31 @@
+h4 {
+    color: blueviolet;
+}
+
+h2 {
+    color: orange;
+}
+
+button {
+    color: white;
+    background-color: blue;
+}
+
+p {
+    background-color: black;
+    color: white;
+    line-height: 5;
+}
+
+.logo {
+    font-family: League spartan;
+    color: #ff5a11;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 900;
+    font-size: 55px;
+    text-decoration: teal double underline;
+    line-height: 1.5;
+
+}

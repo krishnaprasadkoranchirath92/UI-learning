@@ -1,0 +1,52 @@
+
+  1. universal selector :
+* {
+    property:value;
+}
+2. Element selector :
+h1{
+    property:value;
+}
+3. Id selector :
+#id {
+     property:value;
+}
+4. Class Selector:
+.class {
+    property:value;
+}
+5. Descendent Selector: When h3 tag comes under p tag
+p h3 {
+    text-decoration: underline;
+}
+6. Sibling Combinator : To style h3 which comes in the same level (sibling) as p
+p+h3 {
+    text-decoration: underline;
+}
+Child Combinator :
+div>input {
+    background-color: aquamarine;
+}
+The direct descendant will have the style done.
+Descendent Selector may not be the direct child. The child can be of any level
+
+Universal selector
+class Selector
+id selector
+Descendent selector - p h1
+
+sibling combinaTOR - +
+CHILD COMBINATOR - >
+
+Attribute Selector : Selects elememts based on the presence or value of an Attribute
+input[type="text"] {
+    color : green;
+}
+input[type="password"]v{
+    color:red;
+}
+input[type] {
+    background-color:aquamarine;
+}
+
+

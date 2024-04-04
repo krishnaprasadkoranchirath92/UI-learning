@@ -1,0 +1,61 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h3,
+h1 {
+    color: #b92b27;
+}
+
+#login {
+    background-color: white;
+}
+
+#signup {
+    background-color: #b92b27;
+    color: white;
+}
+
+.upvote {
+    background-color: green;
+    color: aliceblue;
+}
+
+/* .pq {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+} */
+
+.pq * {
+    font-family: 'Courier New', Courier, monospace
+}
+
+.pq h1 {
+    color: #1b74e4;
+}
+
+.userbtn {
+    background-color: aqua;
+}
+
+#searchbtn {
+    color:white;
+    background-color: black;
+}
+
+p a {
+    color: purple;
+}
+nav ul li a{
+    color: rgb(89, 15, 248);
+    text-decoration: none;
+}
+
+p+h3 {
+    text-decoration: underline;
+}
+.upvote+button {
+    background-color: lightblue;
+}
+div>input {
+    background-color: aquamarine;
+}

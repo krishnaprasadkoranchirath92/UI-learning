@@ -4,7 +4,7 @@
 
 h3,
 h1 {
-    color: #b92b27;
+    color: #7131e9;
 }
 
 #login {
@@ -58,4 +58,36 @@ p+h3 {
 }
 div>input {
     background-color: aquamarine;
+}
+/* #myId p {
+    background-color: green;
+} */
+div[id="myId"] p {
+    background-color: white;
+}
+button:hover{
+    color: black;
+    background-color: white;
+}
+button:active {
+    color: white;
+    background-color: pink;
+}
+h3:hover{
+    text-decoration: overline;
+}
+p:active {
+    background-color: green;
+}
+input[type="radio"]:checked+label {
+    color: red;
+}
+div:nth-of-type(2n) {
+    background-color: pink;
+}
+h1::first-letter {
+    color: green;
+}
+::selection {
+    background-color: red;
 }

@@ -35,6 +35,15 @@ class Selector
 id selector
 Descendent selector - p h1
 
+Color all paragraphs inside div with id "myId" to green
+div[id="myId"] p{
+color:green;
+}
+#myId p {
+    color:green;
+    
+}
+
 sibling combinaTOR - +
 CHILD COMBINATOR - >
 
@@ -49,4 +58,68 @@ input[type] {
     background-color:aquamarine;
 }
 
+div p {
+    color : green
+}
 
+Select div's with id "myId"
+#myId {
+ color:green;   
+}
+div[id="myId"] {
+    color:green;  
+}
+
+Psuedo Class :
+Keyword added to selector that specifies a special state od an element.
+:hover
+:active
+:checked
+input[type="radio"]:active+label {
+    color:red;
+} -> Gives color to the label when radio button is clicked
+:nth-of-type
+p:nth-of-type(2n) {
+    color:red;
+} -> Changes the color of even index paragraphs
+
+Psuedo Elements :
+Selector that allows to style specific part of an element
+::first-letter
+::first-line
+::selection - Style elements on selection
+
+Cascade - CSS cascade algorithm selects CSS declaration to determine correct value of CSS property
+h2 {
+    background-color: yellow;
+}
+h2 {
+    background-color:green;
+}
+background-color:green will be used since it is coming last.
+If there are multiple css files linked to an HTML page the property in the last CSS file will be considered
+
+If selectors are different, then the styling will be determined by specificity.
+Specificity(3 digit number) : Algorithm that calculates the weight applied to CSS declaration.
+1. Priority to calculate specificity is as below :
+Inline style    >    id       >   class, attribute, psuedo-class    >      element and psuedo-element
+2. More selectors > less selectors
+3. If specificity is same, then styling is based on cascading. The last style is used.
+
+!importanat -  Shows the most specific thing in the document. This style will take the most priority in style
+h2 {
+    color: blue !importanat
+}
+
+
+Inheritance :
+HTML elememts inherit properties from parent element automatically.
+In case of input field ot button etc., we need to explicitly mention -
+input {
+    color:inherit; 
+}
+button {
+    color:inherit;
+}
+Some properties like width, height, border are non-inheritable
+selectors -> combinators ->specificity -> inheritance

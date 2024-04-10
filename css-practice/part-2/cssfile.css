@@ -20,6 +20,6 @@ color: yellow;
 h1::first-letter {
     color: red;
 }
-input[type=checkbox]:active + label{
+input[type=checkbox]:checked + label{
 color: darkblue;
 }

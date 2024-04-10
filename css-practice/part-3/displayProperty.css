@@ -1,0 +1,15 @@
+/* h1 {
+    display: inline;
+}
+
+span {
+    display: block;
+} */
+
+div {
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    display: inline-block;
+}

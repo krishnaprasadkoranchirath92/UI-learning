@@ -1,0 +1,15 @@
+Box Model in CSS
+Properties - 
+height, width, margin, padding, border, border-radius
+Block element - takes the whole width and begins in the new line. Eg. div
+Inline element - Can be placed in the same line as the previous element. Eg span
+Display - Sets weather an element is treated as block or Inline and the layout for it's children
+display:inline;
+display:block;
+The default behaviour can be changed using display property
+For inline elements(eg span) the properties like height, width doesnot work. Margin gets applied in left and right and not in top and bottom.
+Padding works on all sides but may overlap with other elements.
+For block elememts it behaves normally
+display:inline-block - Used to make the block element as inline conserving the properties which would not appear in case of display:inline
+
+

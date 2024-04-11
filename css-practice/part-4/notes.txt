@@ -1,0 +1,6 @@
+Alpha Channel - Sets opacity for a color. Ranges from  0 to 1
+rgbs(255,255,255,.3) -> This sets the transparency for the background color
+opacity:0 to 1
+div {
+    opacity : 0.5  -> This sets the transparency for the entire element
+}

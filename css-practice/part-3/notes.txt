@@ -11,5 +11,22 @@ For inline elements(eg span) the properties like height, width doesnot work. Mar
 Padding works on all sides but may overlap with other elements.
 For block elememts it behaves normally
 display:inline-block - Used to make the block element as inline conserving the properties which would not appear in case of display:inline
+Relative Units:
+1. Percentage :
+#outer {
+    width:400px
+}
+#inner {
+    margin-left:50% //=>200px - % calculates based on the parent measurements or properties
+}
+2. Em :
+To set text-related properties like font-size relative to parent element and set properties like width, margin and padding  relative to the element font size itself
+#outer {
+    font-size:20px
+}
+#inner {
+    font size:2em // 40px- 2 times the font size of parent
+    padding:1em // 40px - same as font size
+}
 
 

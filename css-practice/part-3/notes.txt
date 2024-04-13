@@ -28,5 +28,27 @@ To set text-related properties like font-size relative to parent element and set
     font size:2em // 40px- 2 times the font size of parent
     padding:1em // 40px - same as font size
 }
-
-
+Drawback = snowballing effect
+<div>
+<div>
+<div>
+</div>
+</div>
+</div>
+Styling - div {
+    font-size : 2em // the font size will be doubled everytime which is not desirable
+}
+3. REM: Root element
+font size changes based on root element i.e, html
+<section>
+<div>
+<div>
+<div>
+</div>
+</div>
+</div>
+<section>
+Styling - div {
+    font-size : 2em // the font size will be doubled everytime which is not desirable
+}
+The font sizewill be based on the root element and will be constant across all divs

@@ -1,0 +1,36 @@
+div {
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    background-color: green;
+    text-align: center;
+    border: 3px solid black;
+    display: inline-block;
+}
+#static {
+    background-color: yellow;
+    margin-left: 100px;
+    /* margin-top: 100px; */
+    position:static; /*Margin has no effect */
+}
+#relative {
+    background-color: yellow;
+    margin-left: 100px;
+    /* margin-top: 100px; */
+    position:relative; /*Margin gives offset based on the previous position */
+}
+
+#abs {
+    background-color: yellow;
+    margin-left: 100px;
+    /* margin-left: 00px;
+    margin-top: 00px; */
+    position:absolute; /*Margin gives offset based on positioned parent if any or based on document*/
+}
+#fixed {
+    background-color: red;
+    margin-left: 100px;
+    /* margin-left: 00px;
+    margin-top: 00px; */
+    position:fixed;
+}

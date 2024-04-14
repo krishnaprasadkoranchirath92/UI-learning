@@ -1,0 +1,23 @@
+#container {
+background-color: aquamarine;
+width: 200px;
+height: 200px;
+display: flex;
+flex-direction: row-reverse;
+justify-content: space-evenly;
+}
+#red {
+    background-color: red;
+    width: 20px;
+    height: 200px;
+}
+#yellow {
+    background-color: yellow;
+    width: 20px;
+    height: 200px;
+}
+#green {
+    background-color: green;
+    width: 100px;
+    height: 200px;
+}

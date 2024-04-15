@@ -1,10 +1,12 @@
 Flexbox - Flexible Box Layout
 One dimentional layout method to arrange items in rows and columns
+
 Flexbox Direction - Sets how flex items are places in flex container, along which axis and direction.
 flexbox-direction:row; -> x-axis, left to right
 flexbox-direction:row-reverse -> x-axis, right to left
 flexbox-direction:column; -> y-axis, top to bottom
 flexbox-direction:column-reverse ->y-axis, bottom to top
+
 Justify Content - Decides how space is distributed among elements along the main axis.
 justify-content:flex-start; // elements get arranges to start of the flex
 justify-content:flex-end;// elements get arranges to end of the flex
@@ -12,3 +14,8 @@ justify-content:center;// elements get arranges to center of the flex
 justify-content:space-between;// elements get arranged with spaces between them and not to side
 justify-content:space-around;// elements get arranged with half the space to the end as in between
 justify-content:space-evenly;// elements get arranged with same space in ends as in between elements
+
+Flex Wrap: Sets whether items are forced to one line or can be wrapped into multiple lines
+flex-wrap:nowrap;
+flex-wrap:wrap;
+flex wrap:wrap-reverse;

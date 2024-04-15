@@ -1,0 +1,13 @@
+Commands -
+ls
+pwd
+clear
+cd 
+cd ..
+cd ../ .. move two steps back
+mkdir <folder name>
+touch <filename> // creates file
+rm <filename>
+rmdir <foldername> // removes empty folder
+rm -rf <folder name> //removes any folder
+

@@ -1,0 +1,17 @@
+Node.js - Javascript run time environment for server side programming (Allows to run js code outside browser)
+Node REPL - type node in CMD and we enter node REPL. We can execute js commands. "global"object in REPL is eqivalent to "window" object in browser.
+Process : Object that provides information about current node.js process
+process.argv : Returns an array containing command line arguments passed when node.js process is launched
+
+Export File :
+module.exports
+require() - to include external modules that exist in different files
+module.exports - special object
+eg. module.exports="hello"; (in math.js)
+const a = require("./math.js");
+
+Export Folder :
+folder has multiple files each with module.export. There is index.js which has requires("./file") and exports it as an array.
+In the place of import add requires("/folder") and use the variable.
+
+NPM

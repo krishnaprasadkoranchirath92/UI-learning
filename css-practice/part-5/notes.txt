@@ -8,14 +8,38 @@ flexbox-direction:column; -> y-axis, top to bottom
 flexbox-direction:column-reverse ->y-axis, bottom to top
 
 Justify Content - Decides how space is distributed among elements along the main axis.
-justify-content:flex-start; // elements get arranges to start of the flex
-justify-content:flex-end;// elements get arranges to end of the flex
-justify-content:center;// elements get arranges to center of the flex
+justify-content:flex-start; // elements get arranged to start of the flex
+justify-content:flex-end;// elements get arranged to end of the flex
+justify-content:center;// elements get arranged to center of the flex
 justify-content:space-between;// elements get arranged with spaces between them and not to side
 justify-content:space-around;// elements get arranged with half the space to the end as in between
 justify-content:space-evenly;// elements get arranged with same space in ends as in between elements
 
-Flex Wrap: Sets whether items are forced to one line or can be wrapped into multiple lines
-flex-wrap:nowrap;
-flex-wrap:wrap;
-flex wrap:wrap-reverse;
+Flex Wrap: Sets whether items are forced to one line or can be wrapped into multiple lines (Wraps along main axis)
+flex-wrap:nowrap; -> Elements forced to one line
+flex-wrap:wrap; -> Elements wrapped from top to bottom
+flex wrap:wrap-reverse; -> Wrapped in reverse order (bottom to top)
+
+Align Items: Items wrapped along cross axis(reverse of justify-content)
+Eg.  align-items:fex-start, 
+align-items:flex-end
+align-items: center
+align-items:baseline (Content inside the boxes come in the same line)
+
+Align Content (Similar to justify content but along cross axis) -
+Distributes space between and around contentitems along flexbox's cross-axis
+align-content:flex-start/flex-end/center
+align-content:space-between/space-arount/evenly
+align-content:baseline
+
+Align-self : Align an item along the cross axis
+align-self:flex-start/flex-end/center/baseline
+
+Flex sizing - To set the size of flex
+flex-basis - defines initial main size of flexitem along thr main axis
+flex-grow - Specifies how much of flex container's remaining  space is assigned to item's main size
+flex-shrink - Defines shrink factor for the element (reverse of flex-grow)
+Flex-grow/ shrink will decide on in what proportion will the left over space be distributed among the flex elements
+
+
+

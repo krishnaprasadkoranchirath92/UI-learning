@@ -14,4 +14,19 @@ Export Folder :
 folder has multiple files each with module.export. There is index.js which has requires("./file") and exports it as an array.
 In the place of import add requires("/folder") and use the variable.
 
-NPM
+NPM - Node Package Manager
+npm install <package> 
+Creates 
+ 1. node_modules folder - Contains all dependancies
+ 2.package-lock.json - Records the exact version of all dependancies and sub-dependancies
+ 3.package.json - Contains functional metadata about the project like name, dependancies and version
+ With packaage.json we need to run nom install and node modules get installed
+ Global installation -
+ npm install -g <package-name>
+ npm link <package-name>
+
+ Import (Vs require) : from ES6
+ import {sum} from './math.js'
+ With import we can selectively import, hence saving memory. Which is not possible with require.
+ Loading is synchronous with require and asynchronous with import
+

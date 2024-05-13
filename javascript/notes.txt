@@ -17,4 +17,9 @@ Uninary operator :
 a++ ->use and then increment (in the line it has original value only)
 ++a ->increment and then use (in the line it has incremented value)
 
-Identifier Rules :
+Identifier rules - Identifiers(variables) can start with letters, $ or _only
+Typescript : 
+JS is dynamically typed. Typescript is static typed.i.e, type of a variable cannot be changed once declared.
+
+String in JS:
+

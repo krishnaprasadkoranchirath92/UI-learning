@@ -21,5 +21,13 @@ Identifier rules - Identifiers(variables) can start with letters, $ or _only
 Typescript : 
 JS is dynamically typed. Typescript is static typed.i.e, type of a variable cannot be changed once declared.
 
-String in JS:
+Undefined - The value is not assigned (not known)
+null - Represents absence of any value
+
+JS file - Used using script tag
+<script src="abc.js"></script>
+
+Template Literals - Used to add embedded expressions in a string using back ticks
+console.log(`Pay me ${5} rupees `) => console.log("Pay me",5,"rupees")
+No need to concatenate strings
 

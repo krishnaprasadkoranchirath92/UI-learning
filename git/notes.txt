@@ -1,0 +1,13 @@
+Advantages of GIT (version control system):
+1. Collaborate among developers
+2. Track history
+Git : Software/ tool for version control
+Github : Website that uses git to host repositories and Collaborate
+
+Git commands
+git config --list       //list out the configuration
+git config --global user.name "kp"      // sets user name
+git config --global user.emal "user.gmail.com"      //sets email
+git clone <link>        //clone repository to local machine
+git status          //gives state of the code
+

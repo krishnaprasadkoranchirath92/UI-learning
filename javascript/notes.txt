@@ -29,5 +29,27 @@ JS file - Used using script tag
 
 Template Literals - Used to add embedded expressions in a string using back ticks
 console.log(`Pay me ${5} rupees `) => console.log("Pay me",5,"rupees")
-No need to concatenate strings
+No need to concatenate strings. Expression inside ${} is calculated first and embedded in the string.
 
+Comparison Operator :
+== : Compares only value and not type
+=== : Compares both type and value
+1=='1' //true
+1==='1' //false
+0=='' //true
+0==='' //false
+0==false //true
+0===false //false
+null==undefined //true
+null===undefined //false
+
+Truthy and Falsy
+Falsy - false, 0, -0, "", NaN, null, undefined, 0n(Bigint value)
+Truthy - Everything else
+
+Switch statement - If in any case there is no break, then all the other cases that succeed the current case will get executed until next break is encountered
+
+Console Messages :
+Console.log
+console.error
+console.warn

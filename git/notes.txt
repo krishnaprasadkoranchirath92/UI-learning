@@ -11,3 +11,4 @@ git config --global user.emal "user.gmail.com"      //sets email
 git clone <link>        //clone repository to local machine
 git status          //gives state of the code
 
+

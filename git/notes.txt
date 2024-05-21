@@ -10,5 +10,20 @@ git config --global user.name "kp"      // sets user name
 git config --global user.emal "user.gmail.com"      //sets email
 git clone <link>        //clone repository to local machine
 git status          //gives state of the code
+git add         //files get staged
+git commit -m 'message'
+git push
+
+Create a project locally and push to remote
+git init            //Creates .git file. Initializes git
+Create a repository in github Website -> gives remote link
+git remote add origin <--link-->
+git remote -v       //verify remote - gives the remote git
+git branch          //Check branch
+git branch -M main      // rename the branch name to main
+git push origin main        // push the local changes to main branch in remote git 
+git push -u origin main         //set upstream to main (no need to specify remote branch in future)
+git commit -am 'message'        //Add and commit together
+
 
 

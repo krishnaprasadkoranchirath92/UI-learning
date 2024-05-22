@@ -19,11 +19,18 @@ git init            //Creates .git file. Initializes git
 Create a repository in github Website -> gives remote link
 git remote add origin <--link-->
 git remote -v       //verify remote - gives the remote git
+
 git branch          //Check branch
 git branch -M main      // rename the branch name to main
 git push origin main        // push the local changes to main branch in remote git 
 git push -u origin main         //set upstream to main (no need to specify remote branch in future)
 git commit -am 'message'        //Add and commit together
+git checkout <branch name>      //navigate to different branch
+git checkout -b <new branch name>       //to create new branch
+git branch -d <branch name>         //delete branch
+git push --set-upstream origin feature      //Branch was cretaed locally and needs has no upstream currently
 
+git diff <--branch-->       //gives the difference between current branch and given branch
+git merge <--branch-->      //merge the chencges in given branch to currnt branch
 
 

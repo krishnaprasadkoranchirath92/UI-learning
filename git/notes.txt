@@ -31,6 +31,11 @@ git branch -d <branch name>         //delete branch
 git push --set-upstream origin feature      //Branch was cretaed locally and needs has no upstream currently
 
 git diff <--branch-->       //gives the difference between current branch and given branch
-git merge <--branch-->      //merge the chencges in given branch to currnt branch
+git merge <--branch-->      //merge the changes in given branch to currnt branch
+git pull origin main        // brings remote changes in git to current branch in local (changes from remote main branch will be pulled to local of working branch)
+
+Merge Conflicts
+Git is unable to resolve merge Conflicts
 
 
+ 

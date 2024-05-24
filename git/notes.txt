@@ -47,7 +47,7 @@ git reset       //unadds all the files
     b. Go back to a past commit
         git reset <--commit hash-->
         git reset --hard <--commit hash -->
-            
+            ..
 
 
  

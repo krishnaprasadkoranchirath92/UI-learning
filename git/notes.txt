@@ -37,5 +37,17 @@ git pull origin main        // brings remote changes in git to current branch in
 Merge Conflicts
 Git is unable to resolve merge Conflicts
 
+Fixing Mistakes
+1. Changes staged but not commited :
+git reset <filename>        //reverses the add operation for that file
+git reset       //unadds all the files
+ 2. Changes are commited and we need to go one commit back
+    a. Go back by one commit
+        git reset HEAD~1
+    b. Go back to a past commit
+        git reset <--commit hash-->
+        git reset --hard <--commit hash -->
+            
+
 
  

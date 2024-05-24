@@ -48,5 +48,5 @@ git reset       //unadds all the files
         git reset <--commit hash-->
         git reset --hard <--commit hash -->
 
-
+Forking : New repository that shares code with original upstream repository. Rough copy.
  

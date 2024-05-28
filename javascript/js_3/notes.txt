@@ -1,0 +1,26 @@
+String :
+Strings are immutable in JS. When ever we try to change a string, a new string is created and old remains same.
+Methods :
+"sdsabcdsd".indexOf("abc")      //3 -> Gives first occurance of input string
+Method chaining : "abc".trim().toUpperCase();
+Slice : returns a part of the original string as new string
+let str = "ILoveCoding"
+str.slice(5);      // Coding - second parameter is takes as length of the string
+str.slice(1,5);      // Love - First index is inclusive and last index is exclusive
+str.slice(-6);      //Coding - str.length-1 last 6 characters are printed
+
+Replace : 
+"abcabc".replace("abc","pq");       //pqabc -> replaces first occurance of first parameter with second parameter
+"abc".repeat(3);        //abcabcabc -> Repeats parent string n number of times based on input parameter
+
+Arrays : In JS arrays are of type object
+mixed array -  in JS arrays can store different type of data also
+let info = ["aman", 1, 2.2];
+Empty Array - let newArr = [];
+Arrays are mutable
+let fruits = ["apple", "mango];
+fruits[0] = "banana";       //fruits=["banana", "mango"];
+
+
+
+

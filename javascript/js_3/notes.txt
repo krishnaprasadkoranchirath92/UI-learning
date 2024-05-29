@@ -20,6 +20,13 @@ Empty Array - let newArr = [];
 Arrays are mutable
 let fruits = ["apple", "mango];
 fruits[0] = "banana";       //fruits=["banana", "mango"];
+Array Methods :
+arr.push(10);       // adds element to the last
+arr.pop();      //removes last element and returns it
+arr.shict();        // Removes first element and returns it.
+arr.unshift(11);        //adds new element to the start of the arrays and shifts remaining elements
+
+
 
 
 

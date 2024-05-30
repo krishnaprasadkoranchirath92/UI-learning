@@ -21,10 +21,17 @@ Arrays are mutable
 let fruits = ["apple", "mango];
 fruits[0] = "banana";       //fruits=["banana", "mango"];
 Array Methods :
+let arr = [1,2,10];
 arr.push(10);       // adds element to the last
 arr.pop();      //removes last element and returns it
-arr.shict();        // Removes first element and returns it.
+arr.shift();        // Removes first element and returns it.
 arr.unshift(11);        //adds new element to the start of the arrays and shifts remaining elements
+indexOf : arr.indexOf(11);      //-1
+includes : arr.includes(11);        //false
+arr1.concat(arr2)       returns concatinated array as new array and initial arrays are unchanged
+arr.reverse         // reverses array -  original array is changed
+arr.slice(1,2)      // creates array from index 1 and excludes index 2= [1]
+Splice:
 
 
 

@@ -31,7 +31,15 @@ includes : arr.includes(11);        //false
 arr1.concat(arr2)       returns concatinated array as new array and initial arrays are unchanged
 arr.reverse         // reverses array -  original array is changed
 arr.slice(1,2)      // creates array from index 1 and excludes index 2= [1]
-Splice:
+Splice: Remove elements and add new elements - Changes the original array (while slice doesnot change original array)
+let colors = ["red", "yellow", "blue", "pink", "white"];
+colors.splice(4);       //removes all elements starting from 4th index element and returns it
+colors.splice(1,1,"green","black");         // starting from 1st index delete 1 elememt and place the listed elements
+splice(start, delete count, item0...itemn)      from where to start deleting, count of elements to delete, items to be inserted
+
+Sort : let arr = [100,99,5]; ->100,5,99 (but works fine for strings and characters)
+arr.sort(); - Internally converts the elements to strings and then sorts
+
 
 
 

@@ -1,0 +1,27 @@
+React is used to build components (reusable piece of code)
+Componenet - Piece of code that has it's own logic and appearance (html+css+js)
+JSX - Javascript Extension Syntax
+Lets you write html directly in Javascript
+Babel - Converts jsx to js Internally
+jsx -> Babel -> js
+
+Create Basic react app using vite :
+npm create vite@latest  --> create app
+cd basic-react-app
+npm install --> installs node modules
+npm run dev --> runs react app
+
+App.jsx - Parent component (All components come under this)
+Has js and html
+App.css - Has styling elements for App.jsx
+index.html - Main page that gets displayed
+ <div id="root"></div>
+ <script type="module" src="/src/main.jsx"></script>
+main.jsx - Gets the root element and renders App.jsx component
+Code is there in App.jsx
+index.html -> has root and main.jsx
+main.jsx has script that replaces root component by App component
+Component - Independent reusable piece of code
+All components are embedded inside App.jsx
+
+

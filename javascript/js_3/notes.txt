@@ -40,6 +40,28 @@ splice(start, delete count, item0...itemn)      from where to start deleting, co
 Sort : let arr = [100,99,5]; ->100,5,99 (but works fine for strings and characters)
 arr.sort(); - Internally converts the elements to strings and then sorts
 
+Array References :
+[1] ==[1]       // false
+[1] ===[1]      //false
+Reference means address. The above are false, since == or=== compares the address location of the array which are unequal and not the values.
+let arr = ['a','b'];
+let arrCopy = arr;      //reference gets copied
+arrCopy.push('c');
+arr -> ['a','b','c']        // changes gets reflected in original array, sice the reference got copied
+
+Constant Array :
+const arr = [1,2,3,4];
+arr.push(5);        //works and 5 gets added
+push pop and other operations work. Direct assignment of new array doesnot work
+arr = [8,9];        // doesnot work and throws exception
+const makes the array to have a constant address. When we assign a new array then we are changing the reference address of the array which fails.
+By using constant array we cannot assign null values to wrong values to the array after initial assignment.
+
+Nested Arrays : Array inside array
+let arr = [[]];
+
+
+
 
 
 

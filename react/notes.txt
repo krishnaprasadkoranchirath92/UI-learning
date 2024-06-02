@@ -23,5 +23,24 @@ index.html -> has root and main.jsx
 main.jsx has script that replaces root component by App component
 Component - Independent reusable piece of code
 All components are embedded inside App.jsx
+Import-export
+Webpack enables import/ Export in React
+1. Using default keyword : To export single value (can give custom name)
+export default Component;
+import Component from '/Component'
+2. Named Export : To export multiple values by names
+export {Title, sum};
+import {Title}, {sum} from './Title';
 
+Writing Markup in JSX :
+1. Return a single root element. To return multiple elements from component wrap them in a singlr parent tag.
+2. Close all tags. Even tags like img which need to explicit closing need to have closing tag in jsx.
+3. Use Camel case for component names and most places
+HTML attributes that are key words in js need to be replaced by alternate names. Eg. className is used as attribute instead of class(for css)
+ 
+React Fragment : Lets you group list of children without adding extra nodes to DOM
+<></>
+
+JSX with curly braces :
+Curly braces lets you add js inside markup (component) or JSX
 

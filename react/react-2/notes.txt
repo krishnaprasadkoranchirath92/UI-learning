@@ -1,0 +1,13 @@
+React props :
+information passed inside jsx tag.
+<Product title="phone" price="30k" />
+
+export default function Product({title, price}) {
+    return (
+        <div className="Product">
+        <h4>{title}</h4>
+        <p>{price}</p>
+        </div>
+    )
+}
+Passing arrays to Components

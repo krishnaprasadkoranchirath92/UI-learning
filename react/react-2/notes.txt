@@ -10,4 +10,10 @@ export default function Product({title, price}) {
         </div>
     )
 }
-Passing arrays to Components
+Passing arrays to Components & Passing objects to components
+ <Product title="phone" price={30000} features={["reliable","fast"]} featureObj={{a:"reliable", b:"fast"}}/>
+
+Conditionals :
+{price > 10000 &&<p>Discount of 5%<p/>}
+Dynamic Component Styling : Styling decided at the run time
+
